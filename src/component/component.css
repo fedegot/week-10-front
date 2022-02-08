@@ -1,0 +1,83 @@
+:root {
+    --primary: rgb(207, 6, 6);
+    --secondary: rgb(149,2,2);
+    --dark: black;
+    --light: white;
+}
+
+a { color: inherit;
+    text-decoration: none; } 
+
+/* var(--light) */
+
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    margin: 0px;
+}
+
+
+.NavBar{
+display: flex;
+justify-content: flex-end;
+font-size: 30px;
+gap:10px;
+text-align: center;
+background-color: var(--primary);
+height: 70px;
+margin: 0px;
+position: sticky;
+padding-right: 20px;
+}
+
+.ev{
+    height: 100%;
+    line-height: 70px;
+    flex: 0 0 120px;
+}
+
+.loc{
+    height: 100%;
+    line-height: 70px;
+    flex: 0 0 120px;
+}
+
+.da{
+    height: 100%;
+    line-height: 70px;
+    flex: 0 0 120px;
+}
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+.body2{
+height: 100vh;
+display: flex;
+flex-direction: row;
+background-color: teal;
+height: 550px;
+}
+
+.body1{
+    background-color: rgb(255, 255, 255);
+    flex-grow: 1;
+}
+
+.body2{
+    background-color: rgb(0, 0, 0);
+    flex-grow: 3;
+}
+
+
+
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
+
+
+.footer{
+    position: sticky;
+    height: 70px;
+    background-color: var(--primary);
+}
